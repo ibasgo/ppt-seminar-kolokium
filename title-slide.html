@@ -1,0 +1,53 @@
+<section id="$idprefix$title-slide"$for(title-slide-attributes/pairs)$ $it.key$="$it.value$"$endfor$ class="quarto-title-block">
+  <h1 class="title">$title$</h1>
+  $if(subtitle)$
+    <p class="subtitle">$subtitle$</p>
+  $endif$
+
+  <div class="quarto-title-authors">
+    
+    $if(mahasiswa)$
+    <div class="student-group">
+      $for(mahasiswa)$
+      <div class="quarto-title-author">
+        <div class="quarto-title-author-name">$it.name.literal$</div>
+        $if(it.id)$<div class="author-id">$it.id$</div>$endif$
+      </div>
+      $endfor$
+    </div>
+    $endif$
+
+    <div class="dosen-container">
+      
+      $if(pembimbing)$
+      <div class="author-group">
+        <p class="author-label">Dosen Pembimbing</p>
+        <div class="author-list">
+          $for(pembimbing)$
+          <div class="quarto-title-author">
+            <div class="quarto-title-author-name">$it.name.literal$</div>
+          </div>
+          $endfor$
+        </div>
+      </div>
+      $endif$
+
+      $if(penguji)$
+      <div class="author-group">
+        <p class="author-label">Dosen Penguji</p>
+        <div class="author-list">
+          $for(penguji)$
+          <div class="quarto-title-author">
+            <div class="quarto-title-author-name">$it.name.literal$</div>
+          </div>
+          $endfor$
+        </div>
+      </div>
+      $endif$
+
+    </div> </div>
+
+  $if(date)$
+    <p class="date" style="margin-top: 40px;">$date$</p>
+  $endif$
+</section>

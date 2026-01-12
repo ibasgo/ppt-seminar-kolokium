@@ -1,0 +1,122 @@
+/*-- scss:defaults --*/
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+$font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
+$font-family-monospace: "Source Code Pro", monospace;
+$presentation-heading-color: #734321FF; /* Quarto Blue */
+$link-color: #89AAC6FF; 
+$hover-color: #143765;
+$code-color: #89AAC6FF;
+$code-block-font-size: 0.6em;
+$presentation-h2-font-size: 1.4em !default;
+$presentation-font-size-root: 36px !default;
+
+/*-- define colors for use later --*/
+$first: #184430FF;
+$second: #548150FF;
+$third: #DEB738FF;
+$fourth: #734321FF;
+$fifth: #852419FF;
+$white: #fff;
+$black: #2d2d2d;
+
+/* Variabel Warna */
+$student-font-size: 2.5rem;
+
+/*-- scss:rules --*/
+
+.quarto-title-authors {
+  display: flex;
+  flex-direction: column;
+  align-items: center; // Memusatkan semua konten ke tengah
+  text-align: center;
+  margin-top: 5rem;
+  width: 100%;
+
+  /* Nama Mahasiswa (Tengah) */
+  .student-group {
+    margin-bottom: 2rem;
+    
+    .quarto-title-author-name {
+      font-weight: bold;
+      font-size: $student-font-size;
+      color: $fifth;
+      line-height: 1.2;
+    }
+    .author-id {
+      font-size: 1.8rem;
+      color: $fifth;
+      margin-top: 5px;
+    }
+  }
+
+  /* Container Dua Kolom untuk Dosen */
+  .dosen-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; // Membagi 2 kolom sama rata
+    gap: 40px;
+    width: 100%;
+    max-width: 2000px; // Membatasi lebar agar tidak terlalu lebar di monitor besar
+    margin-top: 20px;
+  }
+
+  .author-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center; // Nama dosen rata tengah di kolomnya masing-masing
+    text-align: left;
+    
+    .author-label {
+      font-size: 2rem;
+      text-transform: uppercase;
+      color: $fifth;
+      letter-spacing: 1.5px;
+      margin-bottom: 12px !important;
+      font-weight: bold;
+      border-bottom: 2px solid $first; // Garis bawah kecil sebagai dekorasi
+      padding-bottom: 4px;
+      width: fit-content;
+    }
+
+    .author-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      .quarto-title-author-name {
+        font-size: 2rem;
+        color: $fifth;
+      }
+    }
+  }
+}
+
+#title-slide .title {
+  color: $first; /* SciPy 24 Green */
+  text-align: left;
+  font-weight: bold !important;
+  font-size: 3em !important;
+  margin-bottom: 3rem;
+}
+
+#title-slide .subtitle {
+  color: $fourth;
+  font-weight: bold;
+  text-align: left;
+  font-size: 2em !important;
+}
+
+.heading-page{
+  background-color: $fourth !important;
+}
+
+
+
+
+
+

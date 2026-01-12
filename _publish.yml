@@ -1,0 +1,4 @@
+- source: ppt-seminar-kolokium.qmd
+  quarto-pub:
+    - id: 46b950fb-7c43-4da7-ba6c-7c577ef0d5e9
+      url: https://ibasgo.quarto.pub/seminar-kolokium

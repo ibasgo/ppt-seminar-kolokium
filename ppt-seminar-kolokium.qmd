@@ -1,0 +1,124 @@
+---
+title: 'Seminar Kolokium'
+subtitle: 'Faktor-Faktor yang Berhubungan dengan Kepatuhan Pengobatan pada Penderita Filariasis di Indonesia:<br>Analisis Data SKI 2023'
+mahasiswa:
+  - name: 
+      literal: "Muhammad Ilham Basgoro"
+    id: "2521211014"
+pembimbing:
+  - name: 
+      literal: "1. Prof. Dr. Masrizal, SKM., M.Biomed"
+  - name: 
+      literal: "2. Randy Novirsa, SKM., MKM., Ph.D"
+penguji:
+  - name: 
+      literal: "1. Ade Suzana Eka Putri, SKM., M. CommHealth. Sc., Ph. D"
+  - name:
+      literal: "2. Dr. Dra. Sri Siswati, SH., Apt., M. Kes"
+  - name:
+      literal: "3. Ratno Widoyo, SKM., MKM., Ph.D"
+footer: "Magister  Epidemiologi<br>Fakultas Kesehatan Masyarakat<br>Universitas Andalas"
+embed-resources: true
+format: 
+  revealjs:
+    title-slide-attributes: 
+      data-background-color: '#DEB738FF'
+    transition: fade
+    slide-number: true
+    theme: styles.scss
+    height: 1080
+    width: 1920
+    logo: "Logo Unand PTNBH.png"
+    highlight-style: github
+    template-partials: 
+      - title-slide.html
+editor: visual
+---
+
+# Pendahuluan {.heading-page}
+
+## Latar Belakang
+
+::::::::::: {.fragment .fade-out fragment-index="5"}
+:::::: {layout="[33, 33, 33]" layout-valign="top" style="text-align: center;"}
+::: {#ncol1 .fragment style="text-align: center;" fragment-index="1"}
+**Definisi:**<br>Filariasis adalah penyakit menular kronis akibat infeksi cacing filaria.
+:::
+
+::: {#ncol2 .fragment style="text-align: center;" fragment-index="2"}
+**Penyebab:**<br>cacing filaria berupa *W. bancrofti*, *Brugia malayi*, dan *Brugia timori*.
+:::
+
+::: {#ncol3 .fragment style="text-align: center;" fragment-index="3"}
+**Epidemiologi Deskriptif:**<br>Dapat menyerang semua kelompok umur, dapat menyerang laki-laki maupun perempuan, dan umumnya ditemukan di wilayah tropis.
+:::
+::::::
+
+:::::: {layout="[30, 40, 30]" layout-valign="top" style="text-align: center; margin-top: 30px;"}
+::: empty-space
+:::
+
+::: {#ncol4 .fragment style="text-align: center;" fragment-index="4"}
+**Dampak:**<br>Kecacatan, kemiskinan, dan stigma sosial.
+:::
+
+::: empty-space
+:::
+::::::
+:::::::::::
+
+::: {.fragment .fade-in-then-out .absolute fragment-index="5" style="text-align: center;" bottom="50%"}
+**Solusi Utama:**<br>Eliminasi filariasis dengan melaksanakan dua program utama yaitu Pemberian Obat Pencegahan Massal (POPM) dan penanganan kasus filariasis kronis di fasilitas kesehatan.
+:::
+
+::: {.fragment .fade-up .absolute fragment-index="6" style="text-align: center;" bottom="50%"}
+Selain itu, pemanfaatan data hasil Survei Kesehatan Indonesia tahun 2023 juga dapat membantu Indonesia dalam mencapai eliminasi filariasis.
+:::
+
+::: notes
+karena informasi yang dihasilkan dapat digunakan untuk menyusun kebijakan, program, dan kegiatan pembangunan, sehingga kebijakan dan program yang dibentuk lebih terarah dan tepat sasaran. 
+:::
+
+## Latar Belakang
+
+::::::::::: {.fragment .fade-out fragment-index="7"}
+:::::: {layout="[33, 33, 33]" layout-valign="top" style="text-align: center;"}
+::: {.fragment style="text-align: center;" fragment-index="1"}
+**Definisi:**<br>Filariasis adalah penyakit menular kronis akibat infeksi cacing filaria.
+:::
+
+::: {.fragment style="text-align: center;" fragment-index="2"}
+**Penyebab:**<br>Cacing filaria berupa *W. bancrofti*, *Brugia malayi*, dan *Brugia timori*.
+:::
+
+::: {.fragment style="text-align: center;" fragment-index="3"}
+**Epidemiologi Deskriptif:**<br>Dapat menyerang semua kelompok umur, dapat menyerang laki-laki maupun perempuan, dan umumnya ditemukan di wilayah tropis.
+:::
+::::::
+
+:::::: {layout="[33, 33, 33]" layout-valign="top" style="text-align: center; margin-top: 40px;"}
+::: {.fragment style="text-align: center;" fragment-index="4"}
+**Dampak:**<br>Kecacatan, kemiskinan, dan stigma sosial.
+:::
+
+::: {#ncol5 .fragment style="text-align: center;" fragment-index="5"}
+**Solusi Utama:**<br>Eliminasi filariasis dengan melaksanakan dua program utama yaitu Pemberian Obat Pencegahan Massal (POPM) dan penanganan kasus filariasis kronis di fasilitas kesehatan.
+:::
+
+::: {#ncol6 .fragment style="text-align: center;" fragment-index="6"}
+**Pencegahan:**<br>Pemberian Obat Pencegahan Massal (POPM).
+:::
+::::::
+:::::::::::
+
+## Tujuan Penelitian
+
+## Manfaat Penelitian
+
+## Ruang Lingkup Penelitian
+
+# Tinjauan Pustaka {.heading-page}
+
+------------------------------------------------------------------------
+
+# Metodologi Penelitian {.heading-page}
